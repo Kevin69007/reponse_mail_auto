@@ -1,0 +1,30 @@
+# --- Node modules ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# --- Logs ---
+logs
+*.log
+*.log.*
+log/
+tmp/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+
+# --- VSCode settings (facultatif si tu veux pas versionner tes préférences IDE) ---
+.vscode/
+
+# --- Build files ---
+dist/
+build/
+
+# --- Render build cache (juste au cas où) ---
+.cache/
+render.yaml
