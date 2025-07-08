@@ -28,3 +28,5 @@ build/
 # --- Render build cache (juste au cas où) ---
 .cache/
 render.yaml
+.env.local
+.env
