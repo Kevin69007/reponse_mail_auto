@@ -89,3 +89,10 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   logger.info(`🚀 Serveur opérationnel sur http://localhost:${port}`);
 });
+
+// Fonction qui affiche l'heure actuelle chaque seconde
+setInterval(() => {
+  const now = new Date();
+  const heureActuelle = now.toLocaleTimeString('fr-FR', { hour12: false });
+  logger.info(`🕒 Heure actuelle : ${heureActuelle}`);
+}, 1000);
